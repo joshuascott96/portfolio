@@ -10,6 +10,10 @@
         @apply font-[Raleway];
     }
 
+    .mono {
+        font-family: 'M PLUS 1 Code', 'Raleway', sans-serif;
+    }
+
     li {
         @apply px-4;
         @apply cursor-pointer;
@@ -20,8 +24,66 @@
         font-family: 'M PLUS 1 Code', 'Raleway', sans-serif;
     }
 
-    .mono {
-        font-family: 'M PLUS 1 Code', 'Raleway', sans-serif;
+    .page {
+        @apply w-full;
+        @apply h-screen;
+    }
+
+    .bg-light {
+        @apply bg-[#222629];
+    }
+
+    .bg-dark {
+        @apply bg-[#1a1d1f];
+    }
+
+    .page-title {
+        @apply text-4xl;
+        @apply text-[#fff];
+        @apply tracking-wide;
+        @apply mono;
+        @apply font-bold;
+    }
+
+    .page-subtitle {
+        @apply text-[#95989a];
+        @apply py-4;
+    }
+
+    .btn-primary {
+        @apply mono;
+        @apply text-[#86c232];
+        @apply border-[#86c232];
+        @apply border-[1px];
+        @apply duration-200;
+        @apply py-3;
+        @apply px-6;
+    }
+
+    .btn-secondary {
+        @apply mono;
+        @apply border-[#6b6e70];
+        @apply border-[1px];
+        @apply text-[#6b6e70];
+        @apply duration-200;
+        @apply py-3;
+        @apply px-6;
+    }
+
+    .btn-secondary:hover {
+        @apply border-[#eee];
+        @apply text-[#eee];
+    }
+
+    .btn-primary:hover {
+        @apply bg-[#86c232];
+        @apply text-[#222629];
+    }
+
+    .work-title {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply tracking-wider;
     }
 
     .blur-overlay {
@@ -39,4 +101,11 @@
     .content-div:hover {
         background:rgba(0, 0, 0, 0.3) !important;
     }
+
+    .form-focus:focus {
+        @apply outline-none;
+        @apply ring;
+        @apply border-[#fff];
+    }
+
 }

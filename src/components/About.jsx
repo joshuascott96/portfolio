@@ -1,10 +1,10 @@
 
 function About() {
   return (
-    <div name='about' className='w-full h-screen bg-[#1a1d1f] text-[#6b6e70]'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
+    <div name='about' className='page bg-dark text-[#6b6e70]'>
+        <div className='flex flex-col justify-center items-center page'>
             <div className='m-w-[1000px] w-full px-8 sm:text-center'>
-                <p className='text-5xl font-bold inline mono tracking-wide text-[#fff]'>Who am I?</p>
+                <p className='text-5xl page-title'>Who am I?</p>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8 pt-2'>
                 <div className='sm:text-right text-4xl font-bold text-[#95989a]'>

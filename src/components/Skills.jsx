@@ -5,11 +5,11 @@ import Html from '../assets/html.png'
 
 function Skills() {
   return (
-    <div name='skills' className='bg-[#222629] h-screen'>
-        <div className='max-w-[1000px] mx-auto px-8 py-16 text-center flex flex-col justify-center w-full h-full tracking-wide'>
+    <div name='skills' className='bg-light page'>
+        <div className='max-w-[1000px] mx-auto px-8 py-16 text-center flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold mono text-[#fff]'>Experience</p>
-                <p className='py-4 text-[#95989a]'>These are the technologies i am working with</p>
+                <p className='page-title'>Experience</p>
+                <p className='page-subtitle'>These are the technologies i am working with</p>
             </div>
 
             <div className='w-full mono grid grid-cols-2 sm:grid-cols-4 gap-4 py-8 text-[#6b6e70]'>
