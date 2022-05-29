@@ -27,6 +27,7 @@
     .page {
         @apply w-full;
         @apply h-screen;
+        @apply justify-center;
     }
 
     .bg-light {

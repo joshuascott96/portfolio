@@ -12,14 +12,14 @@ function Home() {
             <p className='text-[#6b6e70] py-4 max-w-[700px]'>I am an aspiring <span className='font-bold'>Web 3.0 front-end developer.</span> Currently, my focus is mastering the skill of ReactJS.
                 On completion i will transition to learning <span className='font-bold'>Solidity</span>, with a desire to combine the two languages, amongst various frameworks, to create beautiful dApps.
             </p>
-            <div className='sm:flex justify-between'>
+            <div className='flex justify-between '>
                 <Link to='work' smooth={true} duration={500}>
                     <button className='btn-primary my-2 flex items-center'>
                         View Work<HiArrowNarrowRight className='ml-3' />
                     </button>
                 </Link>
                 <Link to='contact' smooth={true} duration={500}>
-                    <button className='invisible sm:visible btn-secondary my-2 flex items-center'>
+                    <button className='btn-secondary my-2 flex'>
                         Contact Me
                     </button>
                 </Link>

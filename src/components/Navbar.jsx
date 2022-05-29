@@ -9,13 +9,13 @@ function Navbar() {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] border-b-[1px] border-[#6b6e70] flex justify-between items-center px-4 bg-[#222629] text-[#6b6e70] text-[0.8rem]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222629] text-[#6b6e70]'>
         <div>
             <h2 className='mono pl-4 tracking-wide font-bold text-[#eee] text-3xl'>J<span className='text-[#86c232]'>R</span>SCOTT<span className='text-[#86c232]'>.</span></h2>
         </div>
 
         {/* MENU */}
-        <ul className='hidden md:flex h-[80px] mr-4 px-4 items-center border-[#6b6e70] border-x-[1px]'>
+        <ul className='hidden md:flex h-[80px] mr-4 px-4 items-center '>
             <li><Link to='home' smooth={true} duration={500}><sup>1.</sup>Home</Link></li>
             <li><Link to='about' smooth={true} duration={500}><sup>2.</sup>About</Link></li>
             <li><Link to='skills' smooth={true} duration={500}><sup>3.</sup>Skills</Link></li>
